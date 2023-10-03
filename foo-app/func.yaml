@@ -1,0 +1,11 @@
+specVersion: 0.35.0
+name: foo-app
+runtime: python
+registry: docker.io/jmdeleonpi
+image: docker.io/jmdeleonpi/foo-app:latest
+imageDigest: sha256:b0592555f85db180099b6811462beec959b3fea87c7290fb399d88fc36c09e92
+created: 2023-08-19T15:31:49.863215342-06:00
+build:
+  builder: pack
+deploy:
+  namespace: default

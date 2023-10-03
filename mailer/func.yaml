@@ -1,0 +1,11 @@
+specVersion: 0.35.0
+name: mailer
+runtime: python
+registry: docker.io/jmdeleonpi
+image: docker.io/jmdeleonpi/mailer:latest
+imageDigest: sha256:3ab43e5ec1bb38344d6264ae00d623ae1ff32201c2b96b198877cbdb92c0efa0
+created: 2023-08-17T11:47:50.740318236-06:00
+build:
+  builder: pack
+deploy:
+  namespace: default

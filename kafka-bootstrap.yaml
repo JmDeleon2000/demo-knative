@@ -1,0 +1,13 @@
+apiVersion: kafka.strimzi.io/v1beta1
+kind: Kafka
+metadata:
+  name: kafka
+spec:
+  kafka:
+    # ...
+listeners:
+  # ...
+  - name: external
+    port: 9094
+    type: nodeport
+    tls: false
